@@ -646,3 +646,10 @@ rgba(redValue, greenValue, blueValue, alphaValue);
 border-left: width style color;
 
 В правиле .sleeve CSS заменить свойства border-left-width, border-left-style и border-left-color на свойство border-left сокращённо. Значения для ширины, стиля и цвета левой границы должны быть одинаковыми.
+
+
+
+Шаг 83
+Ваш маркер хорошо выглядит. Но чтобы он выглядел еще более реалистично, вы можете изменить стиль границы на двойную сплошную границу.
+
+Для свойства краткости  border-left измените значение стиля границы от solid до double.
