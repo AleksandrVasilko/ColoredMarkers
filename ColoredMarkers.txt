@@ -700,3 +700,16 @@ box-shadow: offsetX offsetY color;
 Но что если вы хотите расположить тень на противоположной стороне? Вы можете сделать это, используя отрицательные значения для offsetX и offsetY.
 
 Обновите значения для свойства box-shadow и установите offsetX на -5px, а offsetY на -5px.
+
+
+
+Step 88
+Обратите внимание, что края тени острые. Это связано с опциональным значением blurRadius для свойства box-shadow:
+
+Пример кода
+
+box-shadow: offsetX offsetY blurRadius color;
+
+Если значение blurRadius не включено, оно по умолчанию равно 0 и производит острые углы. Чем выше значение blurRadius, тем больше эффект размывания.
+
+В правиле .green CSS добавьте свойство box-shadow с значениями 5px для offsetX, 5px для offsetY, 5px для blurRadius и green для цвета.
