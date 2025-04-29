@@ -728,3 +728,10 @@ box-shadow: offsetX offsetY blurRadius spreadRadius color;
 Практично добавляя тень 5 пикселей непосредственно вокруг синего маркера.
 
 В .blue правило CSS, добавьте свойство box-shadow с значениями 0 для offsetX, 0 для offsetY, 0 для blurRadius, 5px для spreadRadius и blue для цвета.
+
+
+
+Шаг 90
+Теперь, когда вы знакомы с собственностью box-shadow, вы можете закончить тени, начиная с красного маркера.
+
+В .red правило CSS, обновляйте значения для свойства box-shadow таким образом: offsetX - 0,offsetY - 0, blurRadius 20px, spreadRadius 0, а цвет - красный. Помните, что вам не нужно добавлять единицы к нулевому значению.
