@@ -633,3 +633,16 @@ rgba(redValue, greenValue, blueValue, alphaValue);
 Но для того, чтобы ваш код стал более понятным, лучше установить цвет границы явно.
 
 В правиле .sleeve CSS добавьте свойство border-left-color с значением black.
+
+
+
+Шаг 82
+Свойство border-left сокращённо позволяет одновременно задать ширину, стиль и цвет левой границы.
+
+Вот синтаксис:
+
+Пример кода
+
+border-left: width style color;
+
+В правиле .sleeve CSS заменить свойства border-left-width, border-left-style и border-left-color на свойство border-left сокращённо. Значения для ширины, стиля и цвета левой границы должны быть одинаковыми.
