@@ -713,3 +713,18 @@ box-shadow: offsetX offsetY blurRadius color;
 Если значение blurRadius не включено, оно по умолчанию равно 0 и производит острые углы. Чем выше значение blurRadius, тем больше эффект размывания.
 
 В правиле .green CSS добавьте свойство box-shadow с значениями 5px для offsetX, 5px для offsetY, 5px для blurRadius и green для цвета.
+
+
+
+Шаг 89
+Но что если вы хотите расширить тень дальше? Вы можете сделать это с помощью опционального значения spreadRadius:
+
+Пример кода
+
+box-shadow: offsetX offsetY blurRadius spreadRadius color;
+
+Как и blurRadius, spreadRadius по умолчанию имеет значение 0, если он не включен.
+
+Практично добавляя тень 5 пикселей непосредственно вокруг синего маркера.
+
+В .blue правило CSS, добавьте свойство box-shadow с значениями 0 для offsetX, 0 для offsetY, 0 для blurRadius, 5px для spreadRadius и blue для цвета.
